@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+.contentCont {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+  margin: 10px 0;
+  gap: 1px;
+}
+
+.dateInput {
+  border-radius: 5px 0 0 5px;
+  border: none;
+  border-right: 1px solid var(--border-color);
+  width: 140px;
+  padding: 12px;
+  background-color: transparent;
+}
+
+.contentInput {
+  height: 100%;
+  border: none;
+  font-size: 14px;
+  flex-grow: 1;
+  padding: 10px 40px 10px 12px;
+  border-radius: 0 5px 5px 0;
+}
+
+.deleteBtn {
+  position: absolute;
+  right: 0;
+  padding: 10px;
+}
+
+.deleteBtn img {
+  display: block;
+  width: 20px;
+  height: 20px;
+}

@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+.exp {
+  margin: 40px 0;
+}
+
+.contContents {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+  gap: 1px;
+}
+
+.contContents *:focus {
+  position: relative;
+}
+
+.inpDate {
+  border-radius: 5px 0 0 5px;
+  border: none;
+  border-right: 1px solid var(--border-color);
+  width: 140px;
+  padding: 12px;
+}
+
+.inpItem {
+  height: 100%;
+  padding: 11px 12px;
+  padding-right: 40px;
+  border-radius: 0 5px 5px 0;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  background-color: var(--background-color);
+  font-size: 14px;
+  flex-grow: 1;
+}
+
+.btnDel {
+  position: absolute;
+  right: 1px;
+  background-color: var(--background-color);
+  border-radius: 5px;
+  padding: 9px;
+  overflow: hidden;
+  z-index: 20;
+}
+.btnDel img {
+  display: block;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+}

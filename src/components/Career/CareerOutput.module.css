@@ -1,0 +1,45 @@
+.cont {
+  position: relative;
+  margin-top: 20px;
+}
+
+.cont + .cont {
+  page-break-inside: avoid;
+  page-break-after: auto;
+}
+
+.period {
+  font-size: 12px;
+  font-weight: bold;
+  color: var(--main-color);
+}
+
+.companyName {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 16px 0;
+}
+
+/* Work */
+.list {
+  list-style: inside;
+}
+
+.work {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.list li:not(:last-of-type) {
+  margin-bottom: 5px;
+}
+
+.noContent {
+  font-size: 12px;
+  font-weight: bold;
+  color: var(--placeholder-color);
+}
+
+.hidden {
+  display: none;
+}
