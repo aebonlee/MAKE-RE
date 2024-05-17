@@ -1,4 +1,4 @@
-# Make a Career! 메이커리
+# Make a Career! 메이커리 (https://github.com/weniv/MAKE-RE)
 
 메이커리와 함께 당신의 커리어를 만들어가보세요!
 
